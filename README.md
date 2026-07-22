@@ -230,3 +230,12 @@ Serving Humanity With Love ❤️
 </body>
 
 </html>
+<img src="logo.jpg">
+
+<img src="qr.jpg">
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+<img src="photo4.jpg">
+<img src="photo5.jpg">
