@@ -1,241 +1,268 @@
 <!DOCTYPE html>
-<html lang="mr">
+<html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mai Vruddhashram</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+<title>Mai Vruddhashram | जन सेवा हीच ईश्वर सेवा</title>
 
-body{
-background:#f5f5f5;
-color:#333;
-}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-header{
-background:#8B0000;
-color:white;
-padding:20px;
-text-align:center;
-}
+<link rel="stylesheet" href="style.css">
 
-header h1{
-font-size:40px;
-}
-
-header p{
-font-size:20px;
-margin-top:10px;
-}
-
-.hero{
-background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b");
-background-size:cover;
-background-position:center;
-height:450px;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-color:white;
-padding:20px;
-}
-
-.hero h2{
-font-size:45px;
-}
-
-.hero p{
-margin-top:15px;
-font-size:20px;
-}
-
-.btn{
-display:inline-block;
-margin-top:25px;
-padding:14px 30px;
-background:#ff9800;
-color:white;
-text-decoration:none;
-border-radius:8px;
-font-size:20px;
-}
-
-section{
-padding:60px 20px;
-max-width:1100px;
-margin:auto;
-}
-
-h2{
-text-align:center;
-margin-bottom:25px;
-color:#8B0000;
-}
-
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.gallery img{
-width:100%;
-border-radius:10px;
-}
-
-.donate{
-background:white;
-text-align:center;
-border-radius:10px;
-padding:30px;
-box-shadow:0 0 10px rgba(0,0,0,.15);
-}
-
-footer{
-background:#8B0000;
-color:white;
-text-align:center;
-padding:25px;
-margin-top:40px;
-}
-</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<header>
+<!-- Navbar -->
 
-<h1>🏡 Mai Vruddhashram</h1>
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
 
-<p>जन सेवा हीच ईश्वर सेवा</p>
+<div class="container">
 
-</header>
+<a class="navbar-brand fw-bold" href="#">
 
-<div class="hero">
+Mai Vruddhashram
 
-<div>
+</a>
 
-<h2>Love • Care • Shelter</h2>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
 
-<p>Providing dignity, care and a loving home to elderly mothers.</p>
+<span class="navbar-toggler-icon"></span>
 
-<a href="#donate" class="btn">Donate Now ❤️</a>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#donate">Donate</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+</ul>
 
 </div>
 
 </div>
 
-<section>
+</nav>
 
-<h2>About Us</h2>
+<!-- Hero -->
 
-<p style="text-align:center;font-size:20px;line-height:35px;">
+<section id="home" class="hero">
 
-Mai Vruddhashram is a non-profit old age home dedicated to caring for abandoned, helpless and elderly mothers with dignity, love and compassion.
+<div class="container text-center">
+
+<img src="images/logo.png" class="logo mb-3">
+
+<h1>Mai Vruddhashram</h1>
+
+<h3>जन सेवा हीच ईश्वर सेवा</h3>
+
+<p class="lead">
+
+A Home Filled With Love, Care & Respect For Elderly Mothers
 
 </p>
 
-</section>
+<a href="#donate" class="btn btn-warning btn-lg">
 
-<section>
+Donate Now
 
-<h2>Our Mission</h2>
-
-<p style="text-align:center;font-size:20px;line-height:35px;">
-
-We provide food, shelter, healthcare, emotional support and a family environment to elderly women who have no one to care for them.
-
-</p>
-
-</section>
-
-<section>
-
-<h2>Photo Gallery</h2>
-
-<div class="gallery">
-
-<img src="https://via.placeholder.com/500x350">
-
-<img src="https://via.placeholder.com/500x350">
-
-<img src="https://via.placeholder.com/500x350">
-
-<img src="https://via.placeholder.com/500x350">
+</a>
 
 </div>
 
 </section>
 
-<section id="donate">
+<!-- About -->
 
-<div class="donate">
+<section id="about" class="container py-5">
+
+<div class="row align-items-center">
+
+<div class="col-md-6">
+
+<img src="images/photo1.jpg" class="img-fluid rounded shadow">
+
+</div>
+
+<div class="col-md-6">
+
+<h2>About Mai Vruddhashram</h2>
+
+<p>
+
+Mai Vruddhashram is dedicated to providing shelter, food, healthcare and dignity to elderly mothers.
+
+We believe every mother deserves love, care and respect.
+
+</p>
+
+<div class="row text-center">
+
+<div class="col">
+
+<h3>25+</h3>
+
+<p>Elderly Mothers</p>
+
+</div>
+
+<div class="col">
+
+<h3>24×7</h3>
+
+<p>Care</p>
+
+</div>
+
+<div class="col">
+
+<h3>100%</h3>
+
+<p>Love</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Gallery -->
+
+<section id="gallery" class="bg-light py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-4">
+
+Gallery
+
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<img src="images/photo1.jpg" class="gallery">
+
+</div>
+
+<div class="col-md-4">
+
+<img src="images/photo2.jpg" class="gallery">
+
+</div>
+
+<div class="col-md-4">
+
+<img src="images/photo3.jpg" class="gallery">
+
+</div>
+
+<div class="col-md-4">
+
+<img src="images/photo4.jpg" class="gallery">
+
+</div>
+
+<div class="col-md-4">
+
+<img src="images/photo5.jpg" class="gallery">
+
+</div>
+
+<div class="col-md-4">
+
+<img src="images/photo6.jpg" class="gallery">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Donate -->
+
+<section id="donate" class="container py-5 text-center">
 
 <h2>Support Mai Vruddhashram</h2>
 
 <p>
 
-Every contribution helps us provide food, medicine, shelter and love to elderly mothers.
+Scan QR Code & Donate
 
 </p>
 
-<br>
+<img src="images/qr.png" class="qr">
 
-<h3>UPI / QR Donation</h3>
+</section>
 
-<p>Upload your QR Code image here.</p>
+<!-- Contact -->
+
+<section id="contact" class="bg-dark text-white py-5">
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<p>
+
+<i class="fa fa-phone"></i>
+
+8888125610
+
+</p>
+
+<p>
+
+<i class="fa fa-location-dot"></i>
+
+Chhatrapati Sambhajinagar
+
+</p>
+
+<p>
+
+<i class="fa fa-envelope"></i>
+
+info@maivruddhashram.org
+
+</p>
 
 </div>
 
 </section>
 
-<section>
+<footer class="bg-danger text-white text-center p-3">
 
-<h2>Contact Us</h2>
-
-<p style="text-align:center;font-size:20px;line-height:35px;">
-
-📞 8888125610
-
-<br><br>
-
-📞 8421141104
-
-<br><br>
-
-📍 Anand Nagar, Garakheda, Chhatrapati Sambhajinagar
-
-</p>
-
-</section>
-
-<footer>
-
-© 2026 Mai Vruddhashram
-
-<br>
-
-Serving Humanity With Love ❤️
+© 2026 Mai Vruddhashram | All Rights Reserved
 
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
 
 </body>
 
 </html>
-<img src="logo.jpg">
-
-<img src="qr.jpg">
-
-<img src="photo1.jpg">
-<img src="photo2.jpg">
-<img src="photo3.jpg">
-<img src="photo4.jpg">
-<img src="photo5.jpg">
